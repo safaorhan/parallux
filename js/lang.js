@@ -14,9 +14,8 @@ function setupUi () {
 
 
 	$(".multilang").each(function(index, value){
-		var textId = $(this).attr('textId');
+		var textId = $(this).attr('textid');
 		$(this).text(uiText[textId][lang]);
 	});
-
 
 }
