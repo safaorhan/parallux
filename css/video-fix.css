@@ -7,6 +7,14 @@
   bottom: 0;
 }
 
-.video video {
+#bg-video {
 	display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        background: url(../background.jpg) #000!important;
+        background-size: cover;
+    }
+    #bg-video { display: none; }
 }
